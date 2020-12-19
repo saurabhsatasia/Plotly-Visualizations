@@ -1,0 +1,13 @@
+1. If plotly graphs/plots runs successfully but doesn't show the plot in JUPYTER-LAB, then
+GO TO :: "https://stackoverflow.com/questions/54064245/plot-ly-offline-mode-in-jupyter-lab-not-displaying-plots"
+Or follow this steps:
+    - Stop the jupyter-lab
+    - Install nodejs in virtual env --> "conda install -c conda-forge nodejs"
+      Or follow link --> https://www.shaileshjha.com/how-to-install-nodejs-and-npm-on-windows-10/
+    - Run this in virtual env --> "jupyter labextension install jupyterlab-plotly"
+    
+2. Follow these simple steps:
+    - Install Node.js and NPM https://www.shaileshjha.com/how-to-install-nodejs-and-npm-on-windows-10/
+    - Install everything you see here https://github.com/plotly/plotly.py#jupyterlab-support-python-35
+    - Install all extensions you see here https://github.com/jupyterlab/jupyter-renderers
+
